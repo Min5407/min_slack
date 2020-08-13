@@ -1,0 +1,52 @@
+@import "../../library.scss";
+
+.search {
+  background-color: $primary;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100vw;
+  .searchBar {
+    display: flex;
+    flex: 0.7;
+    justify-content: flex-end;
+
+    .input {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 0 7rem;
+      background-color: rgba(lightgray, 0.2);
+      border: 1px gray solid;
+      border-radius: 10px;
+      margin: 0 1rem;
+
+      @media (max-width: 600px) {
+        padding: 0 1rem;
+      }
+
+      @media (max-width: 400px) {
+        padding: 0 0.3rem;
+        //   margin: 0;
+      }
+      & > input {
+        color: white;
+        border: none;
+        background-color: transparent;
+        margin: 0 1rem;
+        font-size: 18px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  .profile {
+    flex: 0.3;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+}
