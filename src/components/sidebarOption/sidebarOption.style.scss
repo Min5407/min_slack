@@ -1,0 +1,23 @@
+@import "../../library.scss";
+
+.sidebar_option {
+  color: rgb(199, 187, 200);
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary;
+    transition: 0.1s ease-in-out;
+  }
+
+  & > .MuiSvgIcon-root {
+    font-size: 1rem;
+  }
+  & > h4 {
+    margin-left: 1rem;
+  }
+}

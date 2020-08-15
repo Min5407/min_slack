@@ -1,0 +1,38 @@
+@import "../../library.scss";
+
+.sidebar {
+  width: 17%;
+  min-width: 180px;
+  height: 100vh;
+  background-color: $secondary;
+
+  hr {
+    border: 1px $border solid;
+  }
+  .sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-top: 1px $border solid;
+    border-bottom: 1px $border solid;
+    padding: 1rem;
+    &:hover {
+      background-color: $primary;
+      transition: 0.1s ease-in-out;
+    }
+    h3 {
+      font-size: medium;
+      display: flex;
+      align-items: center;
+    }
+    & > .MuiSvgIcon-root {
+      color: $secondary;
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 50%;
+      font-size: 2rem;
+      padding: 5px;
+      // padding: 1rem;
+    }
+  }
+}
