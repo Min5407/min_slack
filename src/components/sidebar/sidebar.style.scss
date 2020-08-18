@@ -2,9 +2,10 @@
 
 .sidebar {
   width: 17%;
-  min-width: 180px;
+  max-width: 250px;
   height: 100vh;
   background-color: $secondary;
+  flex: 0.3;
 
   hr {
     border: 1px $border solid;
