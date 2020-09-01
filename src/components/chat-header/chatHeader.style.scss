@@ -1,0 +1,19 @@
+@import "../../library.scss";
+
+.chat-header {
+  height: 66px;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px lightgray solid;
+
+  .chat_header_name {
+    display: flex;
+    //  justify-content: center;
+    align-items: center;
+    * {
+      margin: 4px;
+    }
+  }
+}
