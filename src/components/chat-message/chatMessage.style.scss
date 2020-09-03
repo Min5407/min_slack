@@ -1,0 +1,14 @@
+.chat-message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  //   border: 1px red solid;
+  .chat-content {
+    margin: 0 1rem;
+
+    .chat_date {
+      color: gray;
+      margin-left: 10px;
+    }
+  }
+}

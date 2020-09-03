@@ -42,10 +42,18 @@ const Sidebar = () => {
         <CreateOutlinedIcon />
       </div>
       <div className="sidebar_utils">
-        <SidebarOption Icon={CommentIcon} title="Threads" />
-        <SidebarOption Icon={BookmarkBorderIcon} title="Saved Item" />
-        <SidebarOption Icon={AppsIcon} title="Apps" />
-        <SidebarOption Icon={FileCopyIcon} title="File Browser" />
+        <SidebarOption groupId="Threads" Icon={CommentIcon} title="Threads" />
+        <SidebarOption
+          groupId="Saved Item"
+          Icon={BookmarkBorderIcon}
+          title="Saved Item"
+        />
+        <SidebarOption groupId="Apps" Icon={AppsIcon} title="Apps" />
+        <SidebarOption
+          groupId="File Browser"
+          Icon={FileCopyIcon}
+          title="File Browser"
+        />
         <SidebarOption Icon={MoreVertIcon} title="More" />
       </div>
       <hr />
